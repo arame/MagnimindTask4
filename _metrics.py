@@ -2,7 +2,7 @@ from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay, classifica
 import matplotlib.pyplot as plt
 
 def display_metrics(y_test, y_pred):
-    target_names = ['NOT Business', 'Business']
+    target_names = ['Class 1', 'Class 2']
     cm = confusion_matrix(y_test, y_pred)
     disp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=target_names)
     disp.plot()

@@ -1,6 +1,6 @@
 class gl:
     pkl_df_text = "pkl_df_text.pkl"
-    pkl_df_is_business = "pkl_df_is_business.pkl"
+    pkl_df_edInput = "pkl_df_edInput.pkl"
     pkl_X_tfidf = "pkl_X_tfidf.pkl"
     pkl_classifier_LR = "pkl_classifier_LR.pkl"
     pkl_classifier_SVM = "pkl_classifier_SVM.pkl"
@@ -9,8 +9,9 @@ class gl:
     columns_not_needed = ['tweetID', 'crDate','edInput', 'editor', 'engages', 'isApproved', 'isEdNeed', 'isRT', 'likes', 'photoUrl', 'retweets', 'rtUsID', 'usFlwrs', 'videoUrl']
     text = "text"
     topic = "topicName"
+    edInput = "edInput"
     is_business = "IsBusiness"
-    sourceId = "usID"
-    source = "usName"
+    usID = "usID"
+    usName = "usName"
     output_folders = ["Pickle"]
 
